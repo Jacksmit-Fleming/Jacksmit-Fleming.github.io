@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<!--
+Overall Design inspiration 
+https://webflow.com/templates/html/renuvo-128-resume-website-template
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Jackson Mitchell Resume Website - Resume Content</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Herder that holds the title and nav bar that will follow the user as they scroll-->
+<header>
+    <h1 id="Title">Jackson Mitchell</h1>
+    <h2>Developer</h2>
+
+    <!-- NAv bar inspired by w3 Schools
+    https://www.w3schools.com/css/css_navbar.asp
+    create a nav bar that allows navigation across my website to all the resume information
+    -->
+    <div id="NavMenu">
+        <ul class="MenuList">
+            <li class="MenuItem" ><a class="MenuTag" href="./index.html">About Me</a></li>
+            <li class="MenuItem" id="current"><a class="MenuTag" href="./resume.html">Resume</a></li>
+        </ul>
+
+        <ul class="MenuList">
+            <li class="MenuItem"><a class="MenuTag" href="#keyskills">Key Skills</a></li>
+            <li class="MenuItem"><a class="MenuTag" href="#education">Education</a></li>
+            <li class="MenuItem"><a class="MenuTag" href="#pastwork">Past Work Experience</a></li>
+            <li class="MenuItem"><a class="MenuTag" href="#coursework">Relevant Course Work</a></li>
+        </ul>
+    </div>
+
+</header>
+
+<div class="CenteralContainer">
+
+    <!--List element and title that showcases some key skill acquired over my schooling years-->
+    <h3 id="keyskills">Key Skills</h3>
+    <ul id="skillsls">
+        <li class="skills_li">Effective Teamwork</li>
+        <li class="skills_li">Analytical thinking</li>
+        <li class="skills_li">Team Leader</li>
+        <li class="skills_li">Operation of Productivity and GIS Software</li>
+        <li class="skills_li">Programming: Java, Python and C++</li>
+        <li class="skills_li">Troubleshooting</li>
+        <li class="skills_li">Valid G driver's license</li>
+    </ul>   
+
+    <!--List element and title that showcases the education that has been completed or is being completed-->
+    <h3 id="education">Education</h3>
+    <ul id="educationls">
+        <li class="edu_li"><span>September 2023 - Currently</span> <br>
+            Geographic Information Systems - Applications Specialist
+            Ontario College Graduate Certificate - Lindsay, Ontario
+        </li>
+        <li class="edu_li"><span>September 2019 - May 2023</span><br>
+            Bachelor of Computing (Honours) - Queen's University - Kingston, Ontario
+            Dean's List: September 2020 - May 2021
+        </li>
+        <li class="edu_li"><span>September 2020 - May 2023</span><br>
+            Geographic Information Science Certificate - Queen's University - Kingston, Ontario
+        </li>
+        <li class="edu_li"><span>September 2015 - June 2019</span><br>
+            Secondary School Diploma - Unnamed High School - West Bay, Ontario
+            Graduating Average: 92% (top 6 courses), Honor Rol
+        </li>
+    </ul>
+
+    <!--in two p elements and a image inside a small table showcasing my past job experiences-->
+    <h3 id="pastwork">Past Work Experience</h3>
+    <div id="pastwork_body">
+        <p>
+            <span>September 2016 - April 2019</span> <br>
+            Club Volunteer / Ice Prepper - Unnamed Curling Club - West Bay, Ontario
+            Assisted in the maintenance of the curling facility in the areas of ice 
+            maintenance, housekeeping and grounds maintenance.
+        </p>
+        <p>
+            <span>2021 - 2023 (Summers May to September)</span> <br>
+            Turf Maintenance - Real Golf Course & Real Country Club - West Bay, Ontario
+            Performed daily maintenance of golf course greens and bunkers using various 
+            turf equipment and tools. Tasks included: cutting grass, raking bunkers, 
+            blowing debris, sodding, trimming naturalized areas and assisting in general 
+            course cleanup. Assisted in providing training and direction to new employees. 
+            Presented great work ethic which lead to being requested to return for another season. 
+        </p>
+
+        <table>
+            <tr>
+                <th><img src="./images/work1.JPG" alt="Roller being used on a gold green"></th>
+            </tr>
+            <tr>
+                <td>Me using a piece of tuf maintenance equipment known as a "Roller" that is used to roll out the greens to close holes from aeration or create a faster green</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3 id="coursework">Relevant Course Work (Queen's University)</h3>
+
+    <!--Showcase a handful of completed courses while at queens in a table element that include the course name,year,grade-->
+    <table id="coursework_table">
+        <tr>
+            <th>Class</th>
+            <th>Course Year</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Data Structures</td>
+            <td>2nd Year</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <td>Linear Data Analysis</td>
+            <td>2nd Year</td>
+            <td>A-</td>
+        </tr>
+        <tr>
+            <td>Software Specifications</td>
+            <td>2nd Year</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Algorithms</td>
+            <td>3rd Year</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Geographic Information Science GIS and Environment</td>
+            <td>3rd Year</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>GIS and Public Health</td>
+            <td>3rd Year</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Cartography and CAD</td>
+            <td>3rd Year</td>
+            <td>A-</td>
+        </tr>
+        <tr>
+            <td>Programming Paradigms</td>
+            <td>3rd Year</td>
+            <td>A-</td>
+        </tr>
+        <tr>
+            <td>Semantics of Program Language</td>
+            <td>4th Year</td>
+            <td>A-</td>
+        </tr>
+        <tr>
+            <td>Photogrammetry</td>
+            <td>3rd Year</td>
+            <td>A-</td>
+        </tr>
+        <tr>
+            <td>Advanced Undergraduate Project</td>
+            <td>4 Year</td>
+            <td>A</td>
+        </tr>
+    </table>
+
+    <!--Showcase some of the projects competed within my 4 years a queens in a small table format-->
+    <table>
+        <tr>
+            <th><img src="./images/Undergrad_proj.png" alt="Image of a website that was create to help students plan there 4 years at Queens"></th>
+            <th><img src="./images/poster.png" alt="Image of a poster that explains the northern expansion of black legged ticks in Canada"></th>
+        </tr>
+        <tr>
+            <td>Undergraduate Final Project. A website (inactive) that was a frame work for a student to help plan out there course across there years at Queens University</td>
+            <td>A Poster/ project that I did in my 4 year of university that explained the northern expansion of black legged ticks in Canada</td>
+        </tr>
+    </table>
+
+</div>
+
+<!--a footer that features important contact info - Inspiration https://www.youtube.com/watch?app=desktop&v=zdA3qZNH1vc -->
+<footer>
+    <div class="FooterContent">    
+        <h4>Contact:</h4>
+        <p>Call: (905) 555-7654</p>
+        <p>Email: <a id="email" href="Jackson:Jackson.m@example.com">Jackson.m@example.com</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
