@@ -75,8 +75,13 @@ table {
     width: 1200px;
 }
 
+img {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
 /* 
-Navigation Bar CSS 
+Navigation Bar CSS - MenuOption
 Inspired my this
 https://www.w3schools.com/css/css_navbar.asp
 */
