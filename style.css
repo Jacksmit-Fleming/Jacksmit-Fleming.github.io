@@ -71,7 +71,7 @@ span {
 /*aligns the text to the center and sets the width*/
 table {
     text-align: center;
-    width: 2250px;
+    width: 1200px;
 }
 
 /* 
@@ -175,23 +175,24 @@ https://www.w3schools.com/css/css_navbar.asp
     width: 1100px;
 }
 
-/*set the width of th past work images table*/
-#pastwork_body table {
-    width: 1200px;
-}
-
 /*set a larger padding for the course work header*/
 #coursework {
     padding-bottom: 20px;
 }
 
-/*set the table style for the images of the past course work projects*/
+/*set the table style for past courses course,level,grade*/
 #coursework_table {
     border: solid;
     border-color: black;   
     width: 600px;
     margin-left: 10px;
     margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*add padding to top of poster image*/
+.projImage {
+    padding-top: 55px;
 }
 
 /* 
