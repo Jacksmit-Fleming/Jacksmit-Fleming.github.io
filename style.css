@@ -229,13 +229,17 @@ footer {
 
 /*set spacing for footer text*/
 .FooterContent p{
-    margin: 5px;   
+    margin: 5px;
+    font-size: 15px;   
 }
 
 /*set the position of the footer header*/
 .FooterContent h4{
-    margin: 5px;  
-    margin-top: 10px; 
+    font-size: 15px; 
+    margin: 5px;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-inline-start: 10px;
 }
 
 /*make the email link element black*/
