@@ -75,6 +75,7 @@ table {
     width: 1200px;
 }
 
+/*making sure images are to there native resolution - ImageOption*/
 img {
     max-width: fit-content;
     max-height: fit-content;
